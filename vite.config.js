@@ -1,8 +1,22 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/',
+  base: '/',  // 确保路由正常工作
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+      },
+      output: {
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name === 'daily-quote.json') {
+            return 'data/[name][extname]'
+          }
+          return 'assets/[name]-[hash][extname]'
+        }
+      }
+    }
+  }
 })

@@ -6,13 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fetch-quote": "cross-env QUOTE_API_ENDPOINT=https://helloword-api.agentsfan.com/daily-quote node scripts/fetch-quote.js",
+    "prebuild": "npm run fetch-quote"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-router": "^4.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "cross-env": "^7.0.3",
     "vite": "^6.0.5"
   }
 }
