@@ -88,10 +88,10 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { RouterLink } from 'vue-router'
 // 导入图片
-import selectionImg from '../assets/selection.png'
-import translateImg from '../assets/translate.png'
-import wordsImg from '../assets/words.png'
-import aiContentImg from '../assets/ai_content.png'
+import selectionImg from '../assets/selection.jpg'
+import translateImg from '../assets/translate.jpg'
+import wordsImg from '../assets/words.jpg'
+import aiContentImg from '../assets/ai_content.jpg'
 
 const features = [
   {
