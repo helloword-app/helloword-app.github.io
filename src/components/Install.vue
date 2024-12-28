@@ -31,6 +31,12 @@
           <h3>安装插件</h3>
           <p>将下载的 .zip 文件拖拽到扩展程序页面中完成安装</p>
         </div>
+
+        <div class="step">
+          <div class="step-number">5</div>
+          <h3>固定插件(推荐)</h3>
+          <p>点击 Chrome 工具栏右侧的"扩展程序"图标，找到哈喽单词，点击图钉图标将其固定在工具栏中</p>
+        </div>
       </div>
   
       <div class="note">
