@@ -4,7 +4,7 @@
       <nav class="nav">
         <div class="logo"></div>
         <div class="nav-links">
-          <a href="#install" class="nav-link">下载安装</a>
+          <router-link to="/install" class="nav-link">下载安装</router-link>
           <router-link to="/daily-quote" class="nav-link">每日佳句</router-link>
         </div>
       </nav>
@@ -15,7 +15,7 @@
           <span class="subtitle">AI驱动的智能单词学习工具</span>
         </h1>
 
-        <a href="#" class="install-button">
+        <a href="/release/helloword.zip" class="install-button">
           <img src="../assets/chrome.svg" alt="Chrome" />
           添加至Chrome浏览器
         </a>

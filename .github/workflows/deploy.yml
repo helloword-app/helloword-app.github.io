@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '6 8 * * *'  # 每天 UTC 08:06 运行
+    - cron: '10 8 * * *'  # 每天 UTC 08:10 运行
 
 jobs:
   build-and-deploy:
