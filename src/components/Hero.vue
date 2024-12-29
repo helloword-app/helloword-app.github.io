@@ -464,13 +464,24 @@ onUnmounted(() => {
   width: 20px;
   height: 20px;
   opacity: 0.9;
-  transition: opacity 0.2s;
-  filter: brightness(1.2);
+  transition: all 0.3s ease;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
 }
 
 .footer-link:hover .social-icon {
   opacity: 1;
-  filter: brightness(1.4);
 }
 
 .divider {
