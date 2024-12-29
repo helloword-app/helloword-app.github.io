@@ -72,9 +72,13 @@
 
       <footer class="footer">
         <div class="footer-links">
-          <a href="#contact" class="footer-link">联系</a>
+          <a href="https://weibo.com/hellowordapp" target="_blank" class="footer-link">
+            <img src="../assets/weibo.svg" alt="微博" class="social-icon" />
+          </a>
           <span class="divider">·</span>
-          <a href="#about" class="footer-link">关于</a>
+          <a href="https://x.com/hellowordapp" target="_blank" class="footer-link">
+            <img src="../assets/x.svg" alt="X" class="social-icon" />
+          </a>
         </div>
         <div class="copyright">
           © 2024 哈喽单词. All rights reserved.
@@ -274,8 +278,8 @@ onUnmounted(() => {
 }
 
 .divider {
-  margin: 0 0.75rem;
-  color: #475569;
+  margin: 0 0.5rem;
+  opacity: 0.7;
 }
 
 .copyright {
@@ -454,5 +458,23 @@ onUnmounted(() => {
   font-size: 1rem;
   line-height: 1.6;
   font-weight: 450;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+  filter: brightness(1.2);
+}
+
+.footer-link:hover .social-icon {
+  opacity: 1;
+  filter: brightness(1.4);
+}
+
+.divider {
+  margin: 0 0.5rem;
+  opacity: 0.7;
 }
 </style>
