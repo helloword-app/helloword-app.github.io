@@ -5,6 +5,17 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>哈喽单词(Hello Word) - AI驱动的智能单词学习工具</title>
+    <script>
+      // 检查当前域名是否为 GitHub Pages
+      if (window.location.hostname.includes('github.io')) {
+        // 保持相同的路径和查询参数
+        const newPath = window.location.pathname;
+        const newSearch = window.location.search;
+        const newHash = window.location.hash;
+        // 重定向到 helloword.app
+        window.location.href = 'http://helloword.app' + newPath + newSearch + newHash;
+      }
+    </script>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PDMG7CR5B3"></script>
     <script>
