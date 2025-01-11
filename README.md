@@ -2,6 +2,9 @@
 
 一款基于 AI 技术的智能单词学习工具，让英语学习更轻松、更高效。
 
+> 🌐 **官方网站**：[helloword.app](https://helloword.app)  
+> ℹ️ 当前仓库（helloword-app.github.io）是哈喽单词的官方 GitHub Pages 镜像站点。
+
 ## 🌟 下载
 
 - **当前版本**：v1.0.1
@@ -16,7 +19,7 @@
 
 ## 🚀 快速开始
 
-1. 访问[官网](https://helloword.app/)
+1. 访问官网[helloword.app](https://helloword.app/)
 2. 搜索"哈喽单词"或直接点击[安装链接](https://helloword.app/install)
 3. 参照安装步骤安装插件即可开始使用
 
