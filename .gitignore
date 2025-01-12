@@ -32,4 +32,5 @@ coverage
 
 # Build output
 dist/
-
+.dev.vars
+.wrangler/
